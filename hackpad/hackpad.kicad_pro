@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../Kicad_resources/gerber-export/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
