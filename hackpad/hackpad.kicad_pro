@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "../../../../Kicad_resources/gerber-export/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hackpad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
