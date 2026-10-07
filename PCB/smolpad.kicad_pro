@@ -70,7 +70,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_issues|112095000|70931000|d363c24c-88f4-432f-a498-123ab6b58f8b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|31903472|36387965|f998caa4-246f-4fd6-9cb8-54b29a81481c|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -524,9 +533,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "./",
-      "plot": "/home/priyangka/personal/Mandeep/tspt/PCB/gbr/",
+      "plot": "/home/priyangka/personal/Mandeep/gt/",
       "specctra_dsn": "",
-      "step": "../../tspt/hackpad.step",
+      "step": "../../../gt/hackpad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -611,12 +620,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -661,13 +694,13 @@
         "uuid": "b28a3658-46e1-46bb-8f99-59dd27d671e5"
       }
     ],
-    "used_designators": "#PWR1-5,J1,SW1-11,U1-2,S1-9,D1-9",
+    "used_designators": "#PWR1-5,J1,SW1-19,U1-2,S1-9,D1-18",
     "variants": []
   },
   "sheets": [
     [
       "b28a3658-46e1-46bb-8f99-59dd27d671e5",
-      "Root"
+      "smolpad"
     ]
   ],
   "text_variables": {},
