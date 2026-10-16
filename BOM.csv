@@ -1,34 +1,18 @@
-All the components needed for this macropad design:
-9x Cherry MX Switches
-9x DSA Keycaps
-4x M3x16mm screws
-9x through-hole 1N4148 Diodes
-1x 0.91 inch OLED display (128x32)
-1x EC11 Rotary encoder
-1x XIAO RP2040
-= $$24.00 – $38.50
-1x Case (2 printed parts + optional Rotary Encoder Cap)
-= $2.00 – $5.00
-5x SmolPad PCB's
-= $5.30 (JLCPCB.com)
-Soldering Iron Kit (This is my first Soldering so i am making sure to do it correctly so i am getting extra things to do it safely)
-1x YIHUA X-4 Premium Soldering Iron Holder with Brass Wool, Cleaning Sponge and Solder Tip Slots
-= ₹369.00 https://robu.in/product/yihua-x-4-premium-soldering-iron-holder-with-brass-wool-cleaning-sponge-and-solder-tip-slots/
-1x Bakon BK609S Soldering Iron ( i am getting this because i am using lead free hasl so it requires higher tempratures)
-= ₹1109.00 https://robu.in/product/bakon-bk609s-soldering-iron/
-1x Solder Wire 0.8mm50g
-= ₹289.00 https://robu.in/product/solder-wire-0-8mm50g/
-1x Taparia 1405 Side Cutting Mini Plier
-= ₹239 https://www.amazon.in/gp/product/B00P66NXIY/ref=ox_sc_act_title_2?smid=AJ6SIZC8YQDZX&psc=1
-1x SP Professional Solder Sucker Desoldering Pump with 2 piece Copper Desoldering Wick
-= ₹99 https://www.amazon.in/gp/product/B0H4KYJ2N2/ref=ox_sc_act_title_3?smid=A3C7Z4RVM9A3G1&psc=1
-1x Geek Lab Solder Flux Paste, Amtech RMA-223 10CC Syringe
-= ₹232 https://www.amazon.in/gp/product/B0GY4BG5RN/ref=ox_sc_act_title_1?smid=A2TAUOL95KBX1X&psc=1
-Final Cost :-
-  Electronics = $0 Covered by Hackpad Kit 
-  Case = $0 Covered by $8 Printing Legion Grant
-  PCB = $0 Covered by $10 Hackpad PCB Grant
-  Robu.in Cart (Iron + Stand + Solder Wire) ₹1,767 (~$18.30)- ₹1733.86($18) Covered by Hack Club Grant = ₹33.14 ( will be paid by me)
-  Amazon.in Cart (Cutters + Sucker/Wick + Flux): ₹239 + ₹99 + ₹232 = ₹570
-  Total Cost of Soldering Iron Kit = ₹2337
-  Total Out-of-Pocket = ₹33.14 (Robu extra) + ₹570 (Amazon) = ₹603.14
+Item Number,Component Description,Quantity,Source / Vendor,Cost (INR),Cost (USD)
+1,Cherry MX Switches,9,Hackpad Kit,₹0.00,$0.00,
+2,DSA Keycaps,9,Hackpad Kit,₹0.00,$0.00,
+3,M3x16mm Screws,4,Hackpad Kit,₹0.00,$0.00,
+4,1N4148 Through-hole Diodes,9,Hackpad Kit,₹0.00,$0.00,
+5,0.91 inch OLED Display (128x32),1,Hackpad Kit,₹0.00,$0.00,
+6,EC11 Rotary Encoder,1,Hackpad Kit,₹0.00,$0.00,
+7,Seeed Studio XIAO RP2040,1,Hackpad Kit,₹0.00,$0.00,
+8,SmolPad Case (2 Printed Parts + Knob),1 set,Printing Legion Grant,₹0.00,$0.00,
+9,SmolPad PCBs (Batch of 5),5,JLCPCB,₹450.00,$5.30,
+10,Bakon BK609S Soldering Iron,1,Robu.in,"₹1,109.00",$12.89,
+11,YIHUA X-4 Soldering Iron Holder,1,Robu.in,₹369.00,$4.29,
+12,Solder Wire 0.8mm 50g,1,Robu.in,₹289.00,$3.36,
+13,Taparia 1405 Side Cutting Mini Plier,1,Amazon.in,₹239.00,$2.78,
+14,SP Professional Solder Sucker & Wick,1 set,Amazon.in,₹99.00,$1.15,
+15,Geek Lab Solder Flux Paste (Amtech RMA-223),1,Amazon.in,₹232.00,$2.70,
+,TOTAL PROJECT VALUE (All Items),,,"₹2,787.00",$32.47,
+,TOTAL OUT-OF-POCKET COST,,,₹603.14,$7.01,

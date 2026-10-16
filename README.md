@@ -2,6 +2,8 @@
 
 SmolPad is an open-source, custom 3x3 mechanical macropad powered by the Seeed Studio XIAO RP2040 microcontroller. It features a 3x3 diode key matrix, an EC11 rotary encoder for volume control, and a 0.91" I2C OLED display for a plain text output (for now) , all housed in a custom 3D-printed case running KMK Firmware .
 
+![alt text](Images/Case/Complete.png)
+
 # Features
 
  **3x3 Key Matrix:** Direct-soldered MX mechanical switches with 1N4148 diodes .
@@ -10,7 +12,7 @@ SmolPad is an open-source, custom 3x3 mechanical macropad powered by the Seeed S
  **Compact Case Design:** Custom 2-piece case secured with M3 heat-set brass inserts.
  **Easy Customization:** Powered by KMK / CircuitPython—edit shortcuts on the fly by modifying `main.py` like a USB drive file.
 
-![alt text](Images/Case/Complete.png)
+![alt text](Images/Schematic.png)
 
 Keymap
  Row 0 
@@ -68,6 +70,30 @@ Imagaes
   Schematic.pdf
  BOM.csv
  README.md
+
+NOTE :- PLEASE CHECK THE BOM.csv FOR THE MATERIALS
+
+# Assembly instructions
+PCB Fabrication: Upload production/gerbers/gerbers.zip to a PCB manufacturer (such as JLCPCB) with standard 1.6mm thickness and default settings.
+
+3D Printing: Print the enclosure parts (smolpad_case_top.step and smolpad_case_bottom.step) .
+
+Component Soldering: Solder the 1N4148 diodes onto the back of the pcb , ensuring correct polarity .
+Solder the mechanical MX-style switches and the EC11 encoder 
+Solder the Seeed Studio XIAO RP2040 microcontroller and the 0.91-inch OLED display
+Enclosure Assembly: Mount the assembled PCB into the 3D-printed case using M3 screws.
+
+# Firmware Flashing & Setup
+
+The SmolPad runs on CircuitPython with KMK firmware using the Seeed Studio XIAO RP2040.
+Enter Bootloader Mode: Connect the XIAO RP2040 to your computer via USB and double-tap the reset button. A drive named RPI-RP2 will appear.
+
+Install CircuitPython Runtime: Drag and drop the official CircuitPython UF2 bootloader runtime onto the RPI-RP2 drive. The board will reboot and mount a new drive named CIRCUITPY.
+
+Upload Firmware Files: Copy your firmware script files (main.py, kb.py, and the kmk/ library folder) directly into the root directory of the CIRCUITPY drive.
+
+Test: The board will automatically execute main.py and initialize your keymap, rotary encoder, and OLED display.
+
 
  Acknowledgements :- i) Usage of Ai for understanding features of Kicad/Onshape , Usage of ai for guidance in few areas like firmware , Usage of ai for identifying errors and resolving them
  ii) All resources are not owned by me (except case and Pcb however you are free to use them if you want to).  
