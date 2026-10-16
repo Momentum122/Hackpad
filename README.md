@@ -10,6 +10,8 @@ SmolPad is an open-source, custom 3x3 mechanical macropad powered by the Seeed S
  **Compact Case Design:** Custom 2-piece case secured with M3 heat-set brass inserts.
  **Easy Customization:** Powered by KMK / CircuitPython—edit shortcuts on the fly by modifying `main.py` like a USB drive file.
 
+![alt text](Images/Case/Complete.png)
+
 Keymap
  Row 0 
   i) Media play/pause
@@ -33,6 +35,8 @@ OLED Display
 i) currently Displays only a single static text i.e. Smolpad active 
 
 All the Above can and will be most likely changed later on .
+
+![alt text](Images/Pcb.png)
 
 # Project Structure
 
