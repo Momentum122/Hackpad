@@ -16,5 +16,5 @@ Item Number,Component Description,Quantity,Source / Vendor,Cost (INR),Cost (USD)
 15,"Geek Lab Solder Flux Paste (Amtech RMA-223)",1,Amazon.in,₹232.00,$2.70
 ,TOTAL PROJECT VALUE (All Items),,,"₹3,581.05","$40.27"
 ,LESS: PCB Grant (JLCPCB),,,"-₹949.66","-$10.00"
-,LESS: Soldering Gear Grant,,,,"-₹1,709.38","-$18.00"
+,LESS: Soldering Gear Grant,,,"-₹1,709.38","-$18.00"
 ,TOTAL OUT-OF-POCKET COST,,,"₹922.01","$12.27"
